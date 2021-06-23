@@ -1,0 +1,36 @@
+{
+  "name": "backend-couse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvisGraph/backend-couse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElvisGraph/backend-couse/issues"
+  },
+  "homepage": "https://github.com/ElvisGraph/backend-couse#readme",
+  "dependencies": {
+    "awilix": "^4.3.4",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "jest": "^27.0.5",
+    "mockingoose": "^2.15.2",
+    "nodemon": "^2.0.7"
+  }
+}
